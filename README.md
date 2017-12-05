@@ -1,2 +1,3 @@
 # cloudformation_multiple_gsi
-Example of AWS Cloud Formation Custom Resources to add Multiple Global Secondary Indexes on a DynamoDB table.
+Example of using a Lambda backed AWS Cloud Formation Custom Resource
+to add multiple Global Seconday Indexes to a DynamoDB table.
