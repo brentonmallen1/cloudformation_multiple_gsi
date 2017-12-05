@@ -18,7 +18,7 @@ Resources:
     DependsOn: DynamoTable
     Type: 'AWS::Serverless::Function'
     Properties:
-      Handler: add_gsi_lambda.lambda_handler
+      Handler: add_gsi.lambda_handler
       Runtime: python3.6
       CodeUri: .
       Description: add multiple global secondary indexes to the dynamo table
