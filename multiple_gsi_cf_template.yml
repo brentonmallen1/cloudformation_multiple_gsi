@@ -32,7 +32,6 @@ Resources:
           GSI_1: global-secondary-index-1
           TABLE_NAME: !Ref DynamoTable
           GSI_2: global-secondary-index-2
-          GSI_3: global-secondary-index-3
       Tags:
         tag1: noblesse
         tag2: oblige
